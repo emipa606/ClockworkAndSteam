@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TeslaShot_FailureMote>Failure: {0} chance</TeslaShot_FailureMote>
+  <TeslaShot_SuccessMote>Shocked!</TeslaShot_SuccessMote>
+  <AssemblyProgress>Assembly progress</AssemblyProgress>
+  <MachineNeedsMaterials>Needs materials</MachineNeedsMaterials>
+  <MachineNeedsOutput>Needs adjacent output!</MachineNeedsOutput>
+  <RenameWindup>Click to rename this windup.</RenameWindup>
+  <WindupGainsName>The windup's name is now {0}.</WindupGainsName>
+  <CW.Operational>Operational</CW.Operational>
+  <CW.AwaitingPressure>Awaiting pressure</CW.AwaitingPressure>
+  <CW.SystemVolume>Steam/system volume: {0} m³ / {1} m³
+System pressure: {2} kPa</CW.SystemVolume>
+  <CW.SystemID>
+System ID: {0}</CW.SystemID>
+  <CW.Unregistered>Unregistered</CW.Unregistered>
+  <CW.SteamFullInfo>System steam mass: {0} kg / {1} kg
+System net mass: {2} kg/h
+System max pressure: {3} kPa</CW.SteamFullInfo>
+  <CW.SwitchedOff>Switched off</CW.SwitchedOff>
+  <CW.CurrentConsumption>Current consumption: {0} kg/h</CW.CurrentConsumption>
+  <CW.CurrentOutput>Current output: {0} kg/h</CW.CurrentOutput>
+  <CW.PressureInfo>Pressure needed: {0} kPa
+Current consumption: {1} kg/h</CW.PressureInfo>
+  <CW.Research>Research:</CW.Research>
+  <CW.BrazenRot>Brazen Rot:</CW.BrazenRot>
+  <CW.Secrets>Secrets:</CW.Secrets>
+  <CW.Debug>Debug:</CW.Debug>
+  <CW.Bird>Bird</CW.Bird>
+  <CW.BirdTT>Or worm?</CW.BirdTT>
+  <CW.CurrentModVersion>Installed mod-version: {0}</CW.CurrentModVersion>
+  <CW.ShowId>Show steam system ID</CW.ShowId>
+  <CW.ShowIdTT>Steam system id can be seen on steam components.</CW.ShowIdTT>
+  <CW.EnableBrazenRot>Enable Brazen Rot</CW.EnableBrazenRot>
+  <CW.EnableBrazenRotTT>Gives colonists a chance to contract brazen rot.</CW.EnableBrazenRotTT>
+  <CW.ClockworkBrazenRot>Clockwork prosthetics cause brazen rot</CW.ClockworkBrazenRot>
+  <CW.ClockworkBrazenRotTT>Colonists contract brazen rot from clockwork prosthesis.</CW.ClockworkBrazenRotTT>
+  <CW.SteamworkBrazenRot>Steamwork prosthetics cause brazen rot</CW.SteamworkBrazenRot>
+  <CW.SteamworkBrazenRotTT>Colonists contract brazen rot from steamwork prosthesis.</CW.SteamworkBrazenRotTT>
+  <CW.LeathalBrazenRot>Brazen rot can be lethal</CW.LeathalBrazenRot>
+  <CW.LeathalBrazenRotTT>Brazen rot can kill colonists after a while. (Changing this midgame can cause mild issues.)</CW.LeathalBrazenRotTT>
+  <CW.BrazenRotMultiplier>Brazen rot multiplier: {0}x</CW.BrazenRotMultiplier>
+  <CW.BrazenRotMultiplierTT>How quickly brazen rot corrupts the body. By default it takes about 30 days with one organ.</CW.BrazenRotMultiplierTT>
+  <CW.ResetMultiplier>Reset Multiplier</CW.ResetMultiplier>
+  <CW.IntegratedResearch>Integrated Research (Requires Reload)</CW.IntegratedResearch>
+  <CW.IntegratedResearchTT>Integrated research make it so certain vanilla research will require research from this mod as a prerequisite. (Requires reload.)</CW.IntegratedResearchTT>
+</LanguageData>

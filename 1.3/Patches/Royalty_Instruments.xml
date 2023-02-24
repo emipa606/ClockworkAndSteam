@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <!--<success>Always</success>-->
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- Replace Intruments -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/JoyGiverDef[defName="Play_MusicalInstrument"]/thingDefs</xpath>
+          <value>
+            <li>PipeOrgan</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SoundDef>
+              <defName>PipeOrgan_Play</defName>
+              <context>MapOnly</context>
+              <sustain>True</sustain>
+              <sustainFadeoutTime>0.25</sustainFadeoutTime>
+              <priorityMode>PrioritizeNearest</priorityMode>
+              <subSounds>
+                <li>
+                  <grains>
+                    <li Class="AudioGrain_Clip">
+                      <clipPath>Instruments/PipeOrgan</clipPath>
+                    </li>
+                  </grains>
+                  <volumeRange>70</volumeRange>
+                  <distRange>10~35</distRange>
+                  <sustainLoop>True</sustainLoop>
+                  <muteWhenPaused>True</muteWhenPaused>
+                </li>
+              </subSounds>
+            </SoundDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAttributeSet">
+          <xpath>/Defs/ThingDef[defName="PipeOrgan"]</xpath>
+          <attribute>ParentName</attribute>
+          <value>MusicalInstrumentBase</value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="PipeOrgan"]</xpath>
+          <value>
+            <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+            <soundPlayInstrument>PipeOrgan_Play</soundPlayInstrument>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="PipeOrgan"]</xpath>
+          <value>
+            <building>
+              <instrumentRange>30</instrumentRange>
+            </building>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="PipeOrgan"]/statBases</xpath>
+          <value>
+            <JoyGainFactor>1</JoyGainFactor>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RoyalTitleDef[defName="Knight" or defName="Praetor"]/throneRoomRequirements//li[7]/things</xpath>
+          <value>
+            <li>PipeOrgan</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
