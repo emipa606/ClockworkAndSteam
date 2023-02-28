@@ -3,6 +3,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Gemstones</li>
+      <li>Kura's Extra Gems</li>
     </mods>
     <match Class="PatchOperationFindMod">
       <mods>
@@ -22,7 +23,7 @@
                 <label>cut sapphire</label>
                 <description>Cut sapphire for advanced use.</description>
                 <jobString>Cutting sapphire</jobString>
-                <workAmount>50</workAmount>
+                <workAmount>500</workAmount>
                 <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
                 <effectWorking>Smelt</effectWorking>
                 <soundWorking>Recipe_Smelt</soundWorking>
@@ -34,7 +35,8 @@
                   <li>
                     <filter>
                       <thingDefs>
-                        <li>Z_Sapphire</li>
+                        <li MayRequire="zylle.Gemstones">Z_Sapphire</li>
+                        <li MayRequire="Kura.ExtraGems">KSapphire</li>
                       </thingDefs>
                     </filter>
                     <count>1</count>
@@ -54,7 +56,7 @@
                 <label>cut ruby</label>
                 <description>Cut ruby for advanced use.</description>
                 <jobString>Cutting ruby</jobString>
-                <workAmount>50</workAmount>
+                <workAmount>500</workAmount>
                 <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
                 <effectWorking>Smelt</effectWorking>
                 <soundWorking>Recipe_Smelt</soundWorking>
@@ -66,7 +68,8 @@
                   <li>
                     <filter>
                       <thingDefs>
-                        <li>Z_Ruby</li>
+                        <li MayRequire="zylle.Gemstones">Z_Ruby</li>
+                        <li MayRequire="Kura.ExtraGems">KRuby</li>
                       </thingDefs>
                     </filter>
                     <count>1</count>
