@@ -1,5 +1,8 @@
 # Changelog for ClockworkAndSteam
 
+1.4.2 - Last update, added end-of-life message
+
+
 1.4.1 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1339121712]Kuras Extra Gems[/url]
 
 

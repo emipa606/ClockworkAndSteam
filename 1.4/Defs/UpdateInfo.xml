@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="ClockworkAndSteam_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2938326206</linkUrl>
+		<banner>UpdateInfo/ClockworkAndSteam</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="ClockworkAndSteam_UpdateInfoBase">
+		<defName>ClockworkAndSteam_1_4_2</defName>
+		<date>2023/12/18</date>
+		<content>The original version of this mod has been updated, please use it instead. This version will remain, but unlisted and will not be updated further.</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+
